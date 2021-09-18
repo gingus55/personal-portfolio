@@ -3,6 +3,14 @@ header{
     border: solid;
 }
 
+ul{
+    display: flex;
+    justify-content: ;
+}
+.nav-links{
+    list-style: none;
+}
+
 div{
     border: solid;
 }
