@@ -6,6 +6,11 @@
     --orange: #fb8500ff;
 }
 
+body {
+    font-family: 'Heebo', sans-serif;
+}
+/* Styling for the header */
+
 header{
     border: solid var(--prussian-blue);
     background: var(--prussian-blue);
@@ -26,12 +31,46 @@ ul{
     text-decoration: none;
     color: var(--light-cornflower-blue);
 }
-div{
-    border: solid;
+
+/* Styling for the banner */
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background: var(--blue-green);
 }
+
+.portfolio-img{
+    display:flex;
+}
+
+#profile-pic{
+    height: 250px;
+}
+
+/* div{
+    border: solid;
+} */
 
 aside{
     border: solid;
+}
+
+/* Styling for the project container */
+
+.project-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.secondary-project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 main{
