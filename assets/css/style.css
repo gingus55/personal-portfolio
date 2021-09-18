@@ -43,6 +43,7 @@ ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
     justify-content: flex-start;
     background: var(--blue-green);
 }
@@ -51,6 +52,9 @@ ul{
     width: 25%;
     float: left;
     align-content: center;
+    position: relative;
+    left: 50px;
+    top: 20px;
 }
 
 .right{
