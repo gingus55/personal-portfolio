@@ -42,6 +42,22 @@ ul{
     background: var(--blue-green);
 }
 
+.left{
+    width: 25%;
+    float: left;
+    align-content: center;
+}
+
+.right{
+    width: 75%;
+    float:right;
+    text-align: center;
+}
+
+.right p{
+    padding: 10% 0%;
+}
+
 .portfolio-img{
     display:flex;
 }
