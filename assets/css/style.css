@@ -32,6 +32,11 @@ ul{
     color: var(--light-cornflower-blue);
 }
 
+.nav-links a:hover{
+    text-decoration: none;
+    color: var(--honey-yellow);
+    font-weight: 700;
+}
 /* Styling for the banner */
 
 .banner{
@@ -60,10 +65,12 @@ ul{
 
 .portfolio-img{
     display:flex;
+    align-content: center;
+    justify-content: center;
 }
 
 #profile-pic{
-    height: 250px;
+    height: 10rem;
 }
 
 /* div{
@@ -95,4 +102,9 @@ main{
 
 footer{
     border: solid;
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
 }
