@@ -6,6 +6,11 @@
     --orange: #fb8500ff;
 }
 
+/* header{
+    position:fixed;
+    width: 100%;
+} */
+
 body {
     font-family: 'Heebo', sans-serif;
 }
