@@ -1,3 +1,20 @@
-body{
-    border: 1px;
+
+header{
+    border: solid;
+}
+
+div{
+    border: solid;
+}
+
+aside{
+    border: solid;
+}
+
+main{
+    border: solid;
+}
+
+footer{
+    border: solid;
 }
