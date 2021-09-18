@@ -47,13 +47,13 @@ ul{
 .banner{
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    position: relative;
-    justify-content: flex-start;
+    /* flex-wrap: wrap; */
+    /* position: relative; */
+    /* justify-content: flex-start; */
     background: var(--blue-green);
 }
 
-.left{
+/* .left{
     width: 25%;
     float: left;
     align-content: center;
@@ -61,15 +61,15 @@ ul{
     left: 50px;
     top: 20px;
 }
-
+*/
 .right{
-    width: 75%;
-    float:right;
+    /* width: 75%;
+    float:right; */
     text-align: center;
-}
+} 
 
 .right p{
-    padding: 10% 0%;
+    padding: 10% 16px;
 }
 
 .portfolio-img{
@@ -79,7 +79,8 @@ ul{
 }
 
 #profile-pic{
-    height: 10rem;
+    width: 300px;
+    border-radius: 50%;
 }
 
 /* div{
