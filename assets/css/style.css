@@ -7,17 +7,25 @@
 }
 
 header{
-    border: solid;
+    border: solid var(--prussian-blue);
+    background: var(--prussian-blue);
 }
 
 ul{
     display: flex;
-    justify-content: ;
-}
-.nav-links{
-    list-style: none;
+    justify-content: right;
+    padding-right: 16px;
 }
 
+.nav-links li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: var(--light-cornflower-blue);
+}
 div{
     border: solid;
 }
