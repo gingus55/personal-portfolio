@@ -97,11 +97,24 @@ aside{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+}
+
+.project-card{
+    width: 30%;
+    box-shadow: 0 4px 8px 0 var(--prussian-blue);
+    transition: 0.3s;
+    margin-right: 12px;
+    margin-bottom: 16px;
+}
+
+.card-container{
+    padding: 2px 16px;
 }
 
 main{
-    border: solid;
+    border: solid var(--honey-yellow);
+    background: var(--honey-yellow);
 }
 
 footer{
