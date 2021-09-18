@@ -16,6 +16,8 @@ body{
 header{
     border: solid var(--prussian-blue);
     background: var(--prussian-blue);
+    position: sticky;
+    top: 0;
 }
 
 ul{
