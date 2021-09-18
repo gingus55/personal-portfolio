@@ -4,10 +4,11 @@
     --prussian-blue: #023047ff;
     --honey-yellow: #ffb703ff;
     --orange: #fb8500ff;
+    --heebo-font:'Heebo', sans-serif;
 }
 
-body {
-    font-family: 'Heebo', sans-serif;
+body{
+    font-family: var(--heebo-font);
 }
 
 /* Styling for the header */
@@ -66,10 +67,6 @@ ul{
     border-radius: 50%;
 }
 
-aside{
-    border: solid;
-}
-
 /* Styling for the project container */
 
 .project-container{
@@ -112,16 +109,45 @@ aside{
 }
 
 main{
-    border: solid var(--honey-yellow);
-    background: var(--honey-yellow);
+    background: white;
 }
 
 footer{
     border: solid;
 }
 
+/* Styling for the aside */
+
+aside{
+    border-right: solid var(--prussian-blue);
+    max-width: 20%;
+    
+}
+
+.main-container{
+    display: flex;
+}
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column;
+    }
+    .main-container{
+        flex-direction: column;
+    }
+    .aside-container{
+        flex-direction: row;
+    }
+    .aside-container h3{
+        display: none;
+    }
+    aside{
+        border-right: none;
     }
 }
