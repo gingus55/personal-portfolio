@@ -11,6 +11,9 @@ body{
     font-family: var(--heebo-font);
 }
 
+img{
+    width: 100%;
+}
 /* Styling for the header */
 
 header{
@@ -42,12 +45,16 @@ ul{
     font-weight: 700;
 }
 
+#link-button img{
+    width: 36px;
+}
+
 /* Styling for the banner */
 
 .banner{
     display: flex;
     flex-direction: row;
-    background: var(--blue-green);
+    background: white;
 }
 
 .right{
@@ -123,6 +130,7 @@ footer{
 aside{
     border-right: solid var(--prussian-blue);
     max-width: 20%;
+    background: white;
     
 }
 
