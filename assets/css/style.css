@@ -24,6 +24,7 @@ header{
     top: 0;
     overflow: hidden;
     z-index: 1;
+    padding: 16px 0px;
 }
 
 ul{
@@ -66,6 +67,7 @@ ul{
 
 .right p{
     padding: 10% 16px;
+    font-size: 18px;
 }
 
 .portfolio-img{
@@ -73,6 +75,7 @@ ul{
     align-content: center;
     justify-content: center;
     padding: 20px;
+    padding-left: 50px;
 }
 
 #profile-pic{
@@ -166,6 +169,12 @@ aside{
     list-style: none;
 }
 
+@media screen and (max-width: 768px) {
+    .primary{
+        width: 450px;
+    }
+}
+
 @media screen and (max-width: 576px) {
     .banner{
         flex-direction: column;
@@ -182,7 +191,7 @@ aside{
     .aside-container h3{
         display: none;
     }
-    
+
     aside{
         border-right: none;
     }
