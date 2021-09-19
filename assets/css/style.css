@@ -146,10 +146,6 @@ main{
     background: white;
 }
 
-footer{
-    border: solid;
-}
-
 /* Styling for the aside */
 
 aside{
@@ -173,6 +169,17 @@ aside{
 
 footer{
     display: flex;
+    padding: 16px 0px;
+}
+
+#left-side{
+    position: absolute;
+    left: 16px;
+}
+
+#right-side{
+    position: absolute;
+    right: 16px;
 }
 
 /* media queries */
