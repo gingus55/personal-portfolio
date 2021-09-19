@@ -48,7 +48,7 @@ ul{
 }
 
 #link-button img{
-    width: 36px;
+    width: 42px;
 }
 
 /* Styling for the banner */
@@ -87,6 +87,21 @@ ul{
     justify-content: space-around;
 }
 
+.project-container button{
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+    padding: 20px 40px;
+    background: var(--honey-yellow);
+    border: none;
+    border-radius: 4%;
+    box-shadow: 0 4px 8px 0 var(--prussian-blue);
+}
+
+.project-container button:hover{
+    font-weight: 700;
+}
+
 .secondary-project-container{
     display: flex;
     flex-direction: row;
@@ -118,6 +133,7 @@ ul{
 
 .card-container{
     padding: 2px 16px;
+    position: relative;
 }
 
 main{
