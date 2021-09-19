@@ -15,6 +15,7 @@ img{
     width: 100%;
     border-radius: 2%;
 }
+
 /* Styling for the header */
 
 header{
@@ -48,10 +49,6 @@ ul{
     color: var(--honey-yellow);
 }
 
-#link-button img{
-    width: 42px;
-}
-
 /* Styling for the banner */
 
 .banner{
@@ -60,26 +57,32 @@ ul{
     background: white;
 }
 
-.right{
-    text-align: center;
-} 
-
-.right p{
-    padding: 10% 16px;
-    font-size: 18px;
-}
-
 .portfolio-img{
-    display:flex;
-    align-content: center;
-    justify-content: center;
     padding: 20px;
     padding-left: 50px;
 }
 
 #profile-pic{
-    width: 300px;
+    width: 80%;
     border-radius: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center; 
+} 
+
+.right p{
+    padding: 10% 16%;
+    font-size: 18px;
+}
+
+#link-button img{
+    width: 14%;
 }
 
 /* Styling for the project container */
