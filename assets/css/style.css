@@ -152,6 +152,7 @@ aside{
     border-right: solid var(--prussian-blue);
     max-width: 20%;
     background: white;
+    padding-left: 10px;
 }
 
 .main-container{
