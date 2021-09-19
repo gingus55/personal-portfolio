@@ -71,6 +71,7 @@ ul{
     display:flex;
     align-content: center;
     justify-content: center;
+    padding: 20px;
 }
 
 #profile-pic{
@@ -87,20 +88,21 @@ ul{
     justify-content: space-around;
 }
 
-.project-container button{
+.project-container a{
     position: absolute;
     bottom: 50px;
     right: -10px;
-    padding: 20px 40px;
+    padding: 5% 10%;
     background: var(--honey-yellow);
     border: none;
     border-radius: 4%;
     box-shadow: 0 4px 8px 0 var(--prussian-blue);
+    text-decoration: none;
 }
 
-.project-container button:hover{
+/* .project-container button:hover{
     font-weight: 700;
-}
+} */
 
 .secondary-project-container{
     display: flex;
@@ -150,7 +152,6 @@ aside{
     border-right: solid var(--prussian-blue);
     max-width: 20%;
     background: white;
-    
 }
 
 .main-container{
