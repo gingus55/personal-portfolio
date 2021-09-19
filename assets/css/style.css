@@ -23,6 +23,7 @@ header{
     position: sticky;
     top: 0;
     overflow: hidden;
+    z-index: 1;
 }
 
 ul{
@@ -100,9 +101,9 @@ ul{
     text-decoration: none;
 }
 
-/* .project-container button:hover{
+.project-container a:hover{
     font-weight: 700;
-} */
+}
 
 .secondary-project-container{
     display: flex;
@@ -113,11 +114,11 @@ ul{
 
 .primary{
     justify-content: space-around;
-    width: 90%;
+    width: 700px;
 }
 
 .general{
-    width: 30%;
+    width: 250px;
 }
 
 .project-card{
@@ -169,15 +170,19 @@ aside{
     .banner{
         flex-direction: column;
     }
+
     .main-container{
         flex-direction: column;
     }
+
     .aside-container{
         flex-direction: row;
     }
+
     .aside-container h3{
         display: none;
     }
+    
     aside{
         border-right: none;
     }
