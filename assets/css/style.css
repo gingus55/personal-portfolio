@@ -203,6 +203,7 @@ footer{
 
     .aside-container{
         flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .aside-container h3{
