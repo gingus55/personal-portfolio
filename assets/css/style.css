@@ -190,18 +190,27 @@ footer{
 /* media queries */
 
 @media screen and (max-width: 768px) {
+    
+    .banner{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+   
     .primary{
         width: 450px;
     }
 
-    .aside-container{
+    /* .aside-container{
         flex-direction: row;
-        flex-wrap: wrap;
         display: inline;
     }
 
-    .aside-container h3{
-        display: none;
+    .aside-container li{
+        display: inline;
+    } */
+
+    aside{
+        border-right: none;
     }
 }
 
@@ -212,6 +221,19 @@ footer{
 
     .main-container{
         flex-direction: column;
+    }
+
+    .aside-container h2, h3{
+        display: none;
+    }
+
+    .aside-container{
+        flex-direction: row;
+        /* display: inline; */
+    }
+
+    .aside-container li{
+        display: inline;
     }
 
     aside{
