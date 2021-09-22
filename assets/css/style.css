@@ -28,13 +28,14 @@ header{
     padding: 16px 0px;
 }
 
-ul{
+.nav-links{
     display: flex;
     justify-content: right;
     padding-right: 16px;
 }
 
 .nav-links li{
+
     list-style: none;
     margin: 0px 10px;
 }
@@ -83,6 +84,27 @@ ul{
 
 #link-button img{
     width: 14%;
+}
+
+/* flex box containing aside and main content */
+
+.main-container{
+    display: flex;
+}
+
+/* Styling for the aside */
+
+aside{
+    border-right: solid var(--prussian-blue);
+    max-width: 20%;
+    background: white;
+    padding-left: 10px;
+}
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
 }
 
 /* Styling for the project container */
@@ -148,25 +170,6 @@ main{
     background: white;
 }
 
-/* Styling for the aside */
-
-aside{
-    border-right: solid var(--prussian-blue);
-    max-width: 20%;
-    background: white;
-    padding-left: 10px;
-}
-
-.main-container{
-    display: flex;
-}
-
-.aside-container{
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-}
-
 /* footer styling */
 
 footer{
@@ -190,6 +193,16 @@ footer{
     .primary{
         width: 450px;
     }
+
+    .aside-container{
+        flex-direction: row;
+        flex-wrap: wrap;
+        display: inline;
+    }
+
+    .aside-container h3{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -199,15 +212,6 @@ footer{
 
     .main-container{
         flex-direction: column;
-    }
-
-    .aside-container{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .aside-container h3{
-        display: none;
     }
 
     aside{
