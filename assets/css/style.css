@@ -200,15 +200,6 @@ footer{
         width: 450px;
     }
 
-    /* .aside-container{
-        flex-direction: row;
-        display: inline;
-    }
-
-    .aside-container li{
-        display: inline;
-    } */
-
     aside{
         border-right: none;
     }
@@ -229,7 +220,6 @@ footer{
 
     .aside-container{
         flex-direction: row;
-        /* display: inline; */
     }
 
     .aside-container li{
