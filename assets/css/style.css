@@ -1,0 +1,243 @@
+:root{
+    --light-cornflower-blue: #8ecae6ff;
+    --blue-green: #219ebcff;
+    --prussian-blue: #023047ff;
+    --honey-yellow: #ffb703ff;
+    --orange: #fb8500ff;
+    --heebo-font:'Heebo', sans-serif;
+}
+
+body{
+    font-family: var(--heebo-font);
+}
+
+img{
+    width: 100%;
+    border-radius: 2%;
+}
+
+/* Styling for the header */
+
+header{
+    border: solid var(--prussian-blue);
+    background: var(--prussian-blue);
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 1;
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name{
+    justify-content: left;
+    color: var(--honey-yellow);
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: right;
+    padding-right: 16px;
+    margin-right: 16px;
+}
+
+.nav-links li{
+    list-style: none;
+    margin: 0px 10px;
+}
+
+.nav-links a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: var(--light-cornflower-blue);
+}
+
+.nav-links a:hover{
+    text-decoration: none;
+    color: var(--honey-yellow);
+}
+
+/* Styling for the banner */
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    background: white;
+}
+
+.portfolio-img{
+    padding: 20px;
+    padding-left: 50px;
+}
+
+#profile-pic{
+    width: 80%;
+    border-radius: 50%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center; 
+} 
+
+.right p{
+    padding: 10% 16%;
+    font-size: 18px;
+}
+
+#link-button img{
+    width: 14%;
+}
+
+/* flex box containing aside and main content */
+
+.main-container{
+    display: flex;
+}
+
+/* Styling for the aside */
+
+aside{
+    border-right: solid var(--prussian-blue);
+    max-width: 20%;
+    background: white;
+    padding-left: 10px;
+}
+
+.aside-container{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+/* Styling for the project container */
+
+.project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-container a{
+    position: absolute;
+    bottom: 50px;
+    right: -10px;
+    padding: 5% 10%;
+    background: var(--honey-yellow);
+    border: none;
+    border-radius: 4%;
+    box-shadow: 0 4px 8px 0 var(--prussian-blue);
+    text-decoration: none;
+}
+
+.project-container a:hover{
+    filter: brightness(1.1);
+}
+
+.secondary-project-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.primary{
+    justify-content: space-around;
+    width: 700px;
+}
+
+.general{
+    width: 250px;
+}
+
+.project-card{
+    box-shadow: 0 4px 8px 0 var(--prussian-blue);
+    transition: 0.3s;
+    margin-right: 12px;
+    margin-bottom: 16px;
+    border-radius: 2%;
+}
+
+.project-card:hover{
+    box-shadow: 0 8px 16px 0 var(--prussian-blue);
+    transform: translateX(4px);
+}
+
+.card-container{
+    padding: 2px 16px;
+    position: relative;
+}
+
+main{
+    background: white;
+}
+
+/* footer styling */
+
+footer{
+    display: flex;
+    padding: 16px 0px;
+}
+
+#left-side{
+    position: absolute;
+    left: 16px;
+}
+
+#right-side{
+    position: absolute;
+    right: 16px;
+}
+
+/* media queries */
+
+@media screen and (max-width: 768px) {
+    
+    .banner{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+   
+    .primary{
+        width: 450px;
+    }
+
+    aside{
+        border-right: none;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        flex-direction: column;
+    }
+
+    .main-container{
+        flex-direction: column;
+    }
+
+    .aside-container h2, h3{
+        display: none;
+    }
+
+    .aside-container{
+        flex-direction: row;
+    }
+
+    .aside-container li{
+        display: inline;
+    }
+
+    aside{
+        border-right: none;
+    }
+}
