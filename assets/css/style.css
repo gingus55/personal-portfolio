@@ -94,7 +94,16 @@ header {
 }
 
 #link-button img {
-  width: 14%;
+  width: auto;
+  height: 60px;
+}
+
+.media-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: space-around;
+  text-align: center;
 }
 
 /* flex box containing aside and main content */
@@ -102,12 +111,6 @@ header {
 .main-container {
   display: flex;
 }
-
-/* .media-links {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-} */
 
 /* Styling for the aside */
 
