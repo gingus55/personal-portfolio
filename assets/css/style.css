@@ -124,6 +124,10 @@ aside {
   list-style: none;
 }
 
+.logos {
+  width: 80px;
+}
+
 /* Styling for the project container */
 
 .project-container {
@@ -245,5 +249,10 @@ footer {
 
   aside {
     border-right: none;
+  }
+
+  .logos {
+    height: 30px;
+    width: 30px;
   }
 }
