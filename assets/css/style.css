@@ -75,7 +75,7 @@ header {
 }
 
 #profile-pic {
-  width: 80%;
+  max-width: 500px;
   border-radius: 50%;
 }
 
@@ -95,6 +95,10 @@ header {
 
 #link-button img {
   width: auto;
+  height: 60px;
+}
+
+#folder{
   height: 60px;
 }
 
@@ -119,6 +123,7 @@ aside {
   max-width: 20%;
   background: white;
   padding-left: 10px;
+  padding-right: 10px;
 }
 
 .aside-container {
